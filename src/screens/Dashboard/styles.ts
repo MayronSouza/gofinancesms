@@ -4,12 +4,13 @@ const Container = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
+  background-color: ${({ theme }) => theme.colors.background};
 `;
 
 const Title = styled.Text`
   font-size: 26px;
   font-weight: bold;
-  color: purple;
+  color: ${({ theme }) => theme.colors.title};
 `;
 
 export { Container, Title }
