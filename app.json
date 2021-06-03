@@ -1,0 +1,12 @@
+{
+  "name": "gofinancesms",
+  "displayName": "gofinancesms",
+  "expo": {
+    "name": "gofinancesms",
+    "slug": "gofinancesms",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
