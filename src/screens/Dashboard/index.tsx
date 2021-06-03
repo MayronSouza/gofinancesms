@@ -1,11 +1,13 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Container, Title } from './styles';
+
+
 
 const Dashboard = () => {
   return (
-    <View>
-      <Text>Dashboard</Text>
-    </View>
+    <Container>
+      <Title>Dashboard</Title>
+    </Container>
   );
 };
 
