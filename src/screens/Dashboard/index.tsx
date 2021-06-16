@@ -1,4 +1,5 @@
 import React from 'react';
+import { HighlightCard } from '../../components/HighlightCars';
 
 import {
   Container,
@@ -30,6 +31,8 @@ const Dashboard = () => {
           <Icon name="power"/>
         </UserWrapper>
       </Header>
+
+      <HighlightCard />
     </Container>
   );
 };
