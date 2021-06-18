@@ -4,7 +4,7 @@ import { Feather } from '@expo/vector-icons';
 
 export const Container = styled.View`
   flex: 1;
-  background-color: ${({ theme }) => theme.colors.secondary};
+  background-color: ${({ theme }) => theme.colors.shape};
 `;
 
 export const Header = styled.View`
@@ -59,5 +59,5 @@ export const Icon = styled(Feather)`
 export const HighlightCards = styled.ScrollView.attrs({
   horizontal: true,
   showHorizontalScrollIndicator: false,
-  containerStyle: { paddingHorizontal: 16 },
+  contentContainerStyle: { paddingHorizontal: 16 },
 })``;
